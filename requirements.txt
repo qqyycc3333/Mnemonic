@@ -1,0 +1,14 @@
+# torch==2.4.0         # CUDA 12.1 尝试成功， CUDA 11.8 会报错
+# thrift==0.10.0
+# requests==2.4.0
+# transformers==4.45.2
+https://mirrors.aliyun.com/pypi/packages/6f/db/7ee15028d5130929aa0b1b85bab6d8bafe806254d3b5c56c42a0066cceb8/transformers-4.51.0-py3-none-any.whl
+https://mirrors.aliyun.com/pypi/packages/8a/63/38be071b0c8e06840bc6046991636bcb30c27f6bb1e670f4f4bc87cf49cc/tokenizers-0.21.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+accelerate==1.2.1
+deepspeed==0.16.4
+matplotlib==3.10.1
+numpy==1.26.4
+pandas==2.2.3
+openlm_hub==0.0.24
+# evaluate==0.4.3
+https://naruto-zb.oss-cn-zhangjiakou.aliyuncs.com/openlm/libs/release/datasets-3.0.1.post-py3-none-any.whl -i https://artifacts.antgroup-inc.cn/simple/

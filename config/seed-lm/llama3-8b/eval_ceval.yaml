@@ -1,0 +1,20 @@
+
+### model
+model_name_or_path: ../model/llama3-8b
+trust_remote_code: true
+# adapter_name_or_path: /data/oss_bucket_0/yuanyi/aaawin/saves/metamathqa/llama3-8b/sft
+
+### method
+finetuning_type: full
+
+### dataset
+task: ceval_validation    # mmlu_test, ceval_validation, cmmlu_test
+template: fewshot
+lang: zh    # en, zh
+n_shot: 5
+
+### output
+save_dir: /data/oss_bucket_0/yuanyi/aaawin/saves/llama3-8b/eval_vanilla_ceval
+
+### eval
+batch_size: 4
